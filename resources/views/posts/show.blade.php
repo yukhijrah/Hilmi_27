@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      <h1>Create New Posts</h1>
+      <h1>View Posts</h1>
       <hr>
       <form method="POST" action="{{ route('posts.store')}}">
         <div class="form-group">
@@ -15,7 +15,7 @@
           <label for="pwd">Content</label>
           <textarea class="form-control" rows="5" id="content" name="content" required>{{ $post->content }}</textarea>
         </div>
-        <button class="btn btn-success btn-lg btn-block" type="submit">Create Post</button>
+        <button class="btn btn-success btn-lg btn-block" type="submit">Back </button>
       </form>
     </div>
   </div>
